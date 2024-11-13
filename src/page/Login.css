@@ -1,0 +1,83 @@
+ body {
+    background: url('https://source.unsplash.com/random/1920x1080') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container-fluid {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(45deg, #6a1b9a, #8e24aa);
+    border-top-left-radius: 15px;  
+    border-top-right-radius: 15px;
+    padding: 1rem;
+}
+
+.card-body {
+    background-color: #ffffff;  
+    padding: 2rem;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.btn-success {
+    background-color: #43a047;
+    border-color: #43a047;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #388e3c;
+    border-color: #388e3c;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border-color: #bee5eb;
+}
+
+.mb-3 label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.mb-3 input {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 1rem;
+}
+
+ .card-body form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn {
+    align-self: center;
+    width: 100%;  
+}
